@@ -27,5 +27,5 @@ project.ext {
     orionTargetSdk = 28
     orionCompileSdk = 28
     orionBuildToolsVersion = "28.0.3"
-    orionNdkVersion = "20.1.5948944"
+    orionNdkVersion = "21.0.6113669"
 }
