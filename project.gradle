@@ -1,6 +1,6 @@
 ext {
     Properties properties = new Properties()
-    properties.load(project.rootProject.file('local.properties').newDataInputStream())
+    properties.load(project.rootProject.file('local.properties.sample').newDataInputStream())
     ndkDir = properties.getProperty('ndk.dir')
     thirparty_folder = "nativeLibs"
 
