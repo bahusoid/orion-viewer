@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-18.04
 
     steps:
-      - name: Create empty ${{github.sha:8}}
+      - name: Create empty ${GITHUB_SHA:8}
         uses: finnp/create-file-action@1.0.0	
         env:	
           FILE_NAME: "local.properties"	
