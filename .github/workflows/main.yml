@@ -4,7 +4,9 @@ on:
   push:
     branches: 
       - 'master'
-
+env:  
+  ANDROID_NDK:        "20.1.5948944"
+  
 jobs:
   apk:
     name: Generate APK
